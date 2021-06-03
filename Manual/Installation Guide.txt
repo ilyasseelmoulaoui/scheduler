@@ -1,0 +1,23 @@
+go to www.github.com/salmakorchi/Scheduler
+ 
+download the source code that contains the backend and frontend files
+
+in the terminal :
+navigate to the scheduler folder path and run these commands 
+npm init
+npm install --save express body-parser
+npm install --save-dev nodemon
+npm install --save express-graphql graphql
+npm install --save mongoose
+npm install --save bcryptjs
+npm install --save jsonwebtoken
+npm install --save dataloader
+
+that will be everything you need for the backend part using graphql and mongoDB
+
+for the frontend part navigate to frontend folder by running this command :
+cd frontend
+then run this last command to start using our application
+npm install --save react-router-dom
+
+to learn how to use your Scheduler app please check the user manual we provided along with the other files

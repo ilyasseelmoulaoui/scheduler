@@ -1,0 +1,24 @@
+//creation
+mutation{
+  createEvent(eventInput:{  title:"An other title",
+    description:"This is an other desc",
+    price:8.8,
+    date:"2021-04-29T16:02:05.151Z"})  
+{
+  title
+}
+  }
+//print
+ query{
+  events{title}
+}
+
+//user creation
+mutation {
+  createUser(userInput: {email: "taha@gmail.com", password: "test"}) {
+    email
+    password
+  }
+}
+
+ 
